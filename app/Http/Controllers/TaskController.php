@@ -9,7 +9,7 @@ class ExampleController extends Controller
      *
      * @return void
      */
-    function pypart($n) 
+    public function pypart($n) 
 { 
       
     for($i=0;$i<=9;$i++){

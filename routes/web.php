@@ -45,3 +45,6 @@ $router->put('git/{id}', 'GitController@update');
 
 //untuk menghapus data
 $router->delete('git/{id}', 'GitController@destroy');
+
+//untuk menampilkan triangle number
+$router->get('task/{n}', 'TaskController@pypart');
